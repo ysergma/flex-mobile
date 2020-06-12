@@ -1,0 +1,82 @@
+*{margin:0;padding: 0;}
+body{font-family: sans-serif;
+    margin:0;
+    background-image: linear-gradient(260deg,#2376ae 0%,#c16ecf 100%);
+}
+header{background: #efca51;
+       
+}
+a { color: white;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background: rgba(0,0,0,0,2) ;
+    text-align: center;
+    transition: all 0.5s;
+}
+ .appheader a  {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding:1rem 1.5rem;
+    border-radius: 4px;
+}
+
+body .container
+{
+    max-width: 550px;
+    height:80vh;
+    margin:5vh auto;
+    border:10px solid #000;
+    border-bottom-width: 70px;
+    border-radius: 10px;
+    box-shadow:0 0 50px rgba(0, 0, 0, 0.3)
+}
+
+main .content{
+    height: 55vh;
+    padding:20px;
+    line-height: 1.6;
+    background: white;
+    box-shadow: inset 0 5px 0 rgba(0, 0, 0, 0.01);
+}
+
+main .content img{
+    
+    float: left;
+    margin-right: 15px;
+}
+.icons{
+    padding:0px;
+}
+.icons a{text-align: center;
+        padding:1.5rem;
+        border-left: 1px solid rgba(0, 0, 0, 0.1);
+        background: #efca51;
+        color: rgba(0, 0, 0, 0.3);
+
+
+}
+
+
+.container{display: flex;
+           flex-direction: column;
+}
+
+.container>*
+{
+    flex: 1 1 auto;
+}
+.content{
+    overflow-y: scroll;
+    
+}
+
+.appheader{display: flex;
+           align-items: center;
+           justify-content: space-between;
+}
+
+.icons{display: flex;
+    
+       
+}
+.icons a {flex:1 1}
